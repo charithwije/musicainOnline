@@ -1,0 +1,23 @@
+@import '../../node_modules/@angular/material/prebuilt-themes/indigo-pink.css';
+
+.loading-spinner-custom { 
+    z-index: 100;
+    position: fixed;    
+    width: 120px;
+    margin-left: -60px;
+    top: 50%;
+    left: 50%;
+}
+
+.loading-spinner-overlay {
+    position: fixed;
+    z-index: 99;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    filter: Alpha(Opacity=70);
+    opacity: 0.70;
+    -moz-opacity: 0.70;
+}
