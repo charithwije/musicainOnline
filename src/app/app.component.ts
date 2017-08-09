@@ -1,7 +1,7 @@
 import { Component, OnInit, NgZone } from '@angular/core';
 
 @Component({
-  selector: 'my-app',
+  selector: 'mo-app',
   templateUrl: './app.template.html',
   styleUrls: ['./app.styles.css']
 })
