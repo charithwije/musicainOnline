@@ -7,7 +7,8 @@ import { AppComponent }  from './app.component';
 import { appRouting } from './app.router';
 
 @NgModule({
-  imports:      [ appRouting, BrowserModule, BrowserAnimationsModule, MdButtonModule, MdCheckboxModule,  MdCardModule, MdSidenavModule, MdProgressSpinnerModule ],
+  imports:      [ appRouting, BrowserModule, BrowserAnimationsModule,
+                  MdButtonModule, MdCheckboxModule,  MdCardModule, MdSidenavModule, MdProgressSpinnerModule ],
   declarations: [ AppComponent ],
   bootstrap:    [ AppComponent ]
 })
